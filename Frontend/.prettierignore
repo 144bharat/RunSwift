@@ -1,0 +1,41 @@
+/.vscode
+/node_modules
+./dist
+
+# Ignore Angular build output
+dist/
+build/
+
+# Ignore compiled JavaScript files
+*.js
+*.min.js
+*.bundle.js
+
+# Ignore TypeScript declaration files
+*.d.ts
+
+# Ignore node modules
+node_modules/
+
+# Ignore configuration-related files
+angular.json
+tsconfig.json
+tsconfig.*.json
+karma.conf.js
+package.json
+package-lock.json
+
+# Ignore environment configuration files
+src/environments/
+
+# Ignore Angular-specific generated files
+src/**/*.ngfactory.ts
+src/**/*.ngsummary.ts
+
+# Ignore assets and styles (optional)
+src/assets/
+src/**/*.css
+src/**/*.scss
+
+# Ignore Git and version control folders
+.git/
